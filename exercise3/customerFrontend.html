@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Web Store</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="formChecker.js"></script>
+  </head>
+  <body>
+    <h1>Gaming Store</h1>
+    <form action="customerBackend.php" method="post">
+			<fieldset>
+				<h2>Login</h2>
+					Email: <input type="email" name="email" placeholder="name@domain.com" required>
+					Password: <input type="password" name="password" placeholder="Passord" required>
+			</fieldset>
+			<fieldset>
+				<h2>Shipping</h2>
+				<label>
+					<input type="radio" name="shipping" value="Free 7 day" checked>Free 7 day<br>
+					<input type="radio" name="shipping" value="$50 over night">$50 over night<br>
+					<input type="radio" name="shipping" value="$5 three day">$5 three day<br>
+				</label>
+			</fieldset>
+			<fieldset>
+				<h2>Items<h2>
+					<input type="number" min="0" value="0" name="cod" required> Call of Duty Black Ops Cold War ($60)<br>
+					<input type="number" min="0" value="0" name="ow" required> Overwatch ($20)<br>
+					<input type="number" min="0" value="0" name="gta" required> Grand Theft Auto V ($30)<br>
+			</fieldset>
+			<fieldset>
+				<input type="submit">
+				<input type="reset">
+			</fieldset>
+		</form>
+  </body>
+</html>

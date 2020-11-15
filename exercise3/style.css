@@ -1,0 +1,83 @@
+body
+{
+    background-image: url("https://images.unsplash.com/photo-1511882150382-421056c89033?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+}
+
+h1
+{
+  color: red;
+}
+
+fieldset
+{
+  background-color: purple;
+}
+
+table
+{
+  background-color: white;
+}
+
+thead
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+
+tbody
+{
+  background-color: purple;
+}
+
+th
+{
+  border: 1px solid black;
+}
+
+td
+{
+  border: 1px solid black;
+}
+
+td.cod
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+
+td.ow
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+
+td.gta
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+
+td.shipping
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+
+td.total
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
+
+td.totalCost
+{
+  text-align: center;
+  font-weight: bold;
+  background-color: red;
+}
