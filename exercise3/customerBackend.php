@@ -27,7 +27,7 @@ else if($shipping == "$5 three day")
 }
 $totalCost = $codSub + $owSub + $gtaSub + $shippingCost;
 
-echo "<h1>Weclome, $email! You have created an account with the following password: $password<h1>";
+echo "<h1>Weclome, $email! You have created an account with the following password: $password</h1>";
 echo "<table>";
 echo "<thead>";
 echo "<tr>";
